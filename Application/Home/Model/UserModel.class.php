@@ -18,4 +18,12 @@ class UserModel extends Model{
     const SEX_MAN = 1;
     const SEX_WOMAN = 2;
     const SEX_UNKNOWN = 0;
+
+    //翻译状态
+    const IS_TRANSLATE = 1;
+    //情景对话状态
+    const IS_DIALOGUE = 2;
+    //等待状态
+    const WAITING = 3;
+
 }

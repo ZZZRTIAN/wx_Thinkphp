@@ -3615,3 +3615,112 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
 
+[ 2017-05-08T18:29:58+08:00 ] ::1 /speechx_wx/index.php/Admin/auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: header_img D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 50 行.
+NOTIC: [8] Undefined variable: name D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 53 行.
+NOTIC: [8] Undefined variable: group_name D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 54 行.
+NOTIC: [8] Undefined variable: lst_menu D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-05-08T18:29:58+08:00 ] ::1 /speechx_wx/index.php/Admin/auth/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-05-08T18:29:59+08:00 ] ::1 /speechx_wx/index.php/Admin/auth/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-05-08T18:29:59+08:00 ] ::1 /speechx_wx/index.php/Admin/Auth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-05-08T18:29:59+08:00 ] ::1 /speechx_wx/index.php/Admin/Auth/captcha/time/1494239399676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-05-08T18:30:17+08:00 ] ::1 /speechx_wx/index.php/Admin/auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: header_img D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 50 行.
+NOTIC: [8] Undefined variable: name D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 53 行.
+NOTIC: [8] Undefined variable: group_name D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 54 行.
+NOTIC: [8] Undefined variable: lst_menu D:\xampp\htdocs\speechx_wx\Application\Runtime\Cache\Admin\7037a8d5a64fd30b57d5fa54024ea286.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2017-05-08T18:30:17+08:00 ] ::1 /speechx_wx/index.php/Admin/auth/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+

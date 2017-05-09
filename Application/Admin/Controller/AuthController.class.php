@@ -1,7 +1,9 @@
 <?php
 namespace Admin\Controller;
+use Admin\Model\AdminMenuModel;
 use Common\kit\Kit;
 use Common\kit\Captcha;
+use Home\Model\AdminUserModel;
 use Think\Controller;
 
 /**
@@ -44,11 +46,29 @@ class AuthController extends Controller{
     }
 
     public function index(){
+
+        //验证登录
+        if (!AdminUserModel::auth_user()){
+            $this->display('login');
+            exit();
+        }
+        $model_user = new AdminMenuModel();
+        $model_admin_group = new AdminMenuModel();
+        $user = $model_user->where(['account'=>session('account')])->find();
+        $group_name = $model_admin_group->where(['id'=> $user['gid']])->getField('name');
+
+        $user_menu_list = AdminMenuModel::getUserMenu(AdminUserModel::getUserPrivilege($user));
+
+        $this->assign('name',$user['name']);
+        $this->assign('group_name',$group_name);
+        $this->assign('header_img',$user['header_img']);
+        $this->assign('lst_menu',$user_menu_list);
+
         return $this->display();
     }
 
     public function home(){
-
+        return $this->display();
     }
 
     //退出登录

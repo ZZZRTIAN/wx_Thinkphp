@@ -59,11 +59,9 @@ class IndexController extends Controller {
                     $event = $wc->getRevEvent();
                     if ($event['event'] == 'subscribe') {//Wechat::MSGTYPE_EVENT_SUBSCRIBE) {
                         $result = $wc->text('感谢你的订阅')->reply();
-                        $res_reg = $this->register_wx_user($wc->getRevFrom());
                     }
                     elseif ($event['event'] == 'unsubscribe') {// == Wechat::MSGTYPE_EVENT_UNSUBSCRIBE) {
                         $result = $wc->text('再见亦是朋友')->reply();
-                        $res_reg = $this->cancel_wx_user($wc->getRevFrom());
                     }
                     elseif ($event['event'] == 'CLICK') {
                         $result = $wc->text('您点击' . $wc->getEventKey())->reply();
@@ -72,16 +70,6 @@ class IndexController extends Controller {
                         $result = $wc->text('可能您点击了什么，我们没反馈给您')->reply();
                     }
                     break;
-                /*                    $event = trim($post_obj->Event);
-                                    if ($event == Wechat::$_event_subscribe) { //订阅
-                                        $result = $wc->responseEvent($post_obj);
-                                        $res_reg = $this->register_wx_user(trim($post_obj->FromUserName));
-                                    }
-                                    elseif ($event == Wechat::$_event_unsubscribe) { //取消订阅
-                                        $result = $wc->responseEvent($post_obj);
-                                        $res_reg = $this->cancel_wx_user(trim($post_obj->FromUserName));
-                                    }
-                                    break;*/
                 default:
                     $result = "";
                     break;
@@ -182,20 +170,4 @@ class IndexController extends Controller {
 
     }
 
-    /***
-     * 用户取消关注
-     * @param $openid
-     * @return bool
-     */
-    private function cancel_wx_user($openid)
-    {
-        $model_user = new UserModel();
-        $row_user = $model_user->where(['openid' => trim($openid), 'd_status' => UserModel::DB_STATUS_NORMAL])->find();
-        if (empty($row_user)) {
-            return false;
-        }
-        else {
-            $res_update = $model_user->where(['id' => $row_user['id']])->save(['subscribe' => UserModel::IS_NOT_SUBSCRIBE]); //取消订阅
-        }
-    }
 }

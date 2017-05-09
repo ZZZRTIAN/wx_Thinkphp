@@ -45,7 +45,6 @@
         <div class="slimScrollDiv" style="position: relative; width: auto; height: 100%; "><!--overflow: scroll;overflow-x:hidden-->
             <div class="sidebar-collapse" style="width: auto; height: 100%;">
                 <ul class="nav" id="side-menu">
-
                     <li class="nav-header">
                         <div class="dropdown profile-element">
                             <span><img alt="image" class="img-circle header-img" src="/speechx_wx/Public/img/header/<?php echo ($header_img); ?>"></span>
