@@ -1,13 +1,13 @@
 <?php
+
+namespace Admin\Model;
+use Common\extend\Model;
+use Home\Model\AdminUserModel;
 /**
  * author: speechx-rtzhang
  * Date: 2017/5/9
  * Time: 14:11
  */
-namespace Admin\Model;
-use Common\extend\Model;
-use Home\Model\AdminUserModel;
-
 Class AdminMenuModel extends Model{
 
     const LEVEL_ONE = 1;

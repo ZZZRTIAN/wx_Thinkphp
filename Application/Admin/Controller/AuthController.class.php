@@ -1,9 +1,9 @@
 <?php
 namespace Admin\Controller;
 use Admin\Model\AdminMenuModel;
+use Admin\Model\AdminUserModel;
 use Common\kit\Kit;
 use Common\kit\Captcha;
-use Home\Model\AdminUserModel;
 use Think\Controller;
 
 /**

@@ -1,5 +1,5 @@
 <?php
-namespace Home\Model;
+namespace Admin\Model;
 use Admin\Model\AdminGroupModel;
 use Common\extend\Model;
 use Common\kit\Kit;
@@ -23,7 +23,7 @@ class AdminUserModel extends Model{
     //登录验证
     public static function auth_user(){
         $account = session('account');
-        
+
         if (empty($account)){
             return false;
         }
