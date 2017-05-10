@@ -1,0 +1,22 @@
+[ 2017-05-10T15:51:34+08:00 ] ::1 /speechx_wx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010862s ]
+NOTIC: [2] file_get_contents(access_token.json): failed to open stream: No such file or directory D:\xampp\htdocs\speechx_wx\Application\Common\kit\Wechat.class.php 第 162 行.
+
+[ 2017-05-10T15:52:07+08:00 ] ::1 /speechx_wx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-05-10T15:53:07+08:00 ] ::1 /speechx_wx/Public/favicon/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
